@@ -1,11 +1,11 @@
 export const meta = {
-  title: 'LeBron James - Web Developer and Designer',
-  description: 'Hey, I\'m LeBron. I\'m a web developer and designer building things people love.'
+  title: 'Nick Fasulo - Web Developer',
+  description: 'Hey, I\'m Nick - a web developer that enjoys building awesome UI.'
 }
 
 export const hero = {
-  title: "Hey there! I'm LeBron James.",
-  desc: "I'm a web developer and designer building things people love."
+  title: "Hey there! I'm Nick Fasulo.",
+  desc: "I'm an ex-army medic turned software developer with deep interests in web development and building awesome front end experiences. I've developed and maintained several different applications in collaborative environments, and I'm actively looking to contribute to another great team."
 };
 
 export const projects = {
@@ -13,22 +13,23 @@ export const projects = {
   desc: "Here are some of my favorite projects that I've worked on.",
   projects: [
     {
-      title: 'Lakers Official',
-      description: 'Home to the Los-Angeles Lakers',
-      link: 'https://lakers.com',
-      github: ''
+      title: 'Famous Quotes',
+      description: 'Famous quotes rendered in an interactive sphere.',
+      link: 'https://famous-quotes-nick-fasulo.netlify.app',
+      github: 'https://github.com/NickFasulo/famous-quotes'
     },
     {
-      title: 'Cool App',
-      description: 'A cool app!',
-      link: 'https://lebronscoolapp.com',
-      github: 'theking-lbj/cool-app'
+      title: 'Flippy Matchy',
+      description:
+        'A match card game - to win you need to match each pair of identical cards in a deck. There are three levels to choose from: Easy, Medium, and Hard. The difference in levels are the amount of cards that are on the board.',
+      link: 'https://nickfasulo.github.io/flippy-matchy-game',
+      github: 'https://github.com/NickFasulo/flippy-matchy-game'
     },
     {
-      title: 'Another app',
-      description: 'Another app!',
-      link: 'https://anotherlebronapp.com',
-      github: 'theking-lbj/another-app'
+      title: 'Coming soon...',
+      description: 'TBD',
+      link: 'https://github.com/NickFasulo',
+      github: 'https://github.com/NickFasulo'
     }
   ]
 };
@@ -43,15 +44,17 @@ export const stack = {
     'React',
     'NextJS',
     'TailwindCSS',
+    'Material-UI',
     'Firebase',
+    'PostgreSQL',
+    'MongoDB',
     'Git'
   ]
 };
 
 export const contact = {
   title: 'Contact Me',
-  email: 'lebron@gmail.com',
-  github: 'theking-lbj',
-  dribbble: 'theking-lbj',
-  linkedin: 'theking-lbj'
+  email: 'fasulo.nick@gmail.com',
+  github: 'https://github.com/NickFasulo',
+  linkedin: 'https://www.linkedin.com/in/nicholas-fasulo'
 };

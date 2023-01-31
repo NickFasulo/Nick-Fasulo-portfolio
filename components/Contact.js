@@ -33,20 +33,6 @@ export default function Stack() {
             />
           </a>
         )}
-        {contact.dribbble && (
-          <a
-            href={`https://dribbble.com/${contact.dribbble}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Image
-              src="/static/icons/dribbble.svg"
-              width={20}
-              height={20}
-              alt="Dribbble icon"
-            />
-          </a>
-        )}
         {contact.linkedin && (
           <a
             href={`https://linkedin.com/in/${contact.linkedin}`}
