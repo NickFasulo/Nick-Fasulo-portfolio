@@ -40,7 +40,7 @@ export default function Projects() {
                 )}
                 {item.github && (
                   <a
-                    href={`https://github.com/${item.github}`}
+                    href={item.github}
                     className="flex items-center py-1 px-3"
                     target="_blank"
                     rel="noreferrer"

@@ -13,6 +13,13 @@ export const projects = {
   desc: "Here are some of my favorite projects that I've worked on.",
   projects: [
     {
+      title: 'Alike',
+      description:
+        'A social media platform where innovative minds collaborate and share ideas to create the projects of tomorrow. The platform is deisgned so developers can showcase their projects, share their feedback, and keep up on all the latest technology.',
+      link: 'https://alike-ga.netlify.app',
+      github: 'https://github.com/NickFasulo/BackEnd-Alike'
+    },
+    {
       title: 'Famous Quotes',
       description: 'Famous quotes rendered in an interactive sphere.',
       link: 'https://famous-quotes-nick-fasulo.netlify.app',
@@ -24,12 +31,6 @@ export const projects = {
         'A match card game - to win you need to match each pair of identical cards in a deck. There are three levels to choose from: Easy, Medium, and Hard. The difference in levels are the amount of cards that are on the board.',
       link: 'https://nickfasulo.github.io/flippy-matchy-game',
       github: 'https://github.com/NickFasulo/flippy-matchy-game'
-    },
-    {
-      title: 'Coming soon...',
-      description: 'TBD',
-      link: 'https://github.com/NickFasulo',
-      github: 'https://github.com/NickFasulo'
     }
   ]
 };
