@@ -15,7 +15,7 @@ export const projects = {
     {
       title: 'Alike',
       description:
-        'A social media platform where innovative minds collaborate and share ideas to create the projects of tomorrow. The platform is deisgned so developers can showcase their projects, share their feedback, and keep up on all the latest technology.',
+        'A social media platform where innovative minds collaborate and share ideas to create the projects of tomorrow. The platform is designed so developers can showcase their projects, share their feedback, and keep up on all the latest technology.',
       link: 'https://alike-ga.netlify.app',
       github: 'https://github.com/NickFasulo/BackEnd-Alike'
     },
