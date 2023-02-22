@@ -21,7 +21,7 @@ export const projects = {
     },
     {
       title: 'Famous Quotes',
-      description: 'Famous quotes rendered in an interactive sphere.',
+      description: 'Interactive sphere of quotes by notable people throughout history.',
       link: 'https://famous-quotes-nick-fasulo.netlify.app',
       github: 'https://github.com/NickFasulo/famous-quotes'
     },
