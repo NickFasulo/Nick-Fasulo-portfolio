@@ -20,8 +20,16 @@ export const projects = {
       github: 'https://github.com/NickFasulo/BackEnd-Alike'
     },
     {
+      title: 'Top Stuff',
+      description:
+        'An application that allows you to browse trending movies and view movie details.',
+      link: 'https://top-stuff.vercel.app',
+      github: 'https://github.com/NickFasulo/top-stuff'
+    },
+    {
       title: 'Famous Quotes',
-      description: 'Interactive sphere of quotes by notable people throughout history.',
+      description:
+        'Interactive sphere of quotes by notable people throughout history.',
       link: 'https://famous-quotes-nick-fasulo.netlify.app',
       github: 'https://github.com/NickFasulo/famous-quotes'
     },
