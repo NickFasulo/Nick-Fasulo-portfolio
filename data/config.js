@@ -22,7 +22,7 @@ export const projects = {
     {
       title: 'Top Stuff',
       description:
-        'An application that allows you to browse trending movies and view movie details.',
+        'An application that allows you to browse trending movies and view movie details. Includes infinite scrolling and the ability to see an AI generated review using OpenAI',
       link: 'https://top-stuff.vercel.app',
       github: 'https://github.com/NickFasulo/top-stuff'
     },
