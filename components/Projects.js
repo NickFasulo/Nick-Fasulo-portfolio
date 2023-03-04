@@ -19,7 +19,7 @@ export default function Projects() {
             >
               <h3>{item.title}</h3>
               <p>{item.description}</p>
-              <div className="flex items-center flex-wrap -m-3 pt-5">
+              <div className="flex items-left flex-col -m-3 pt-5">
                 {item.link && (
                   <a
                     href={item.link}
