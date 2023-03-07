@@ -10,14 +10,23 @@ export default function Projects() {
         </h2>
       </div>
       <p className="text-lg">{projects.desc}</p>
-      <div className=" mt-8">
-        {projects.projects.map((item, index) => {
+      <div className="mt-8">
+        {projects.projects.map((item, i) => {
           return (
             <div
-              key={index}
+              key={i}
               className="p-6 border border-lightText rounded-xl mb-4"
             >
-              <h3>{item.title}</h3>
+              <h3 className="pl-3 pb-6">{item.title}</h3>
+              <div className="border border-lightText rounded-xl overflow-hidden">
+                <Image
+                  src={item.image}
+                  width="20rem"
+                  height="11rem"
+                  layout="responsive"
+                  alt={`${item.title} image`}
+                />
+              </div>
               <p>{item.description}</p>
               <div className="flex items-left flex-col -m-3 pt-5">
                 {item.link && (
@@ -49,7 +58,7 @@ export default function Projects() {
                       src="/static/icons/github.svg"
                       width={18}
                       height={18}
-                      alt="Link icon"
+                      alt="Github icon"
                     />
                     <span className="ml-2  text-lightText  transition-colors duration-500">
                       {item.github}
