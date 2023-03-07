@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div className="">
       <div className="overflow-x-hidden w-full">
-        <h2 className="landingSectionTitle max-w-max mx-0 text-left relative mb-4 md:w-max ">
+        <h2 className="landingSectionTitle max-w-max mx-0 text-left relative mb-4 md:w-max">
           {projects.title}
         </h2>
       </div>
@@ -17,7 +17,7 @@ export default function Projects() {
               key={i}
               className="p-6 border border-lightText rounded-xl mb-4"
             >
-              <h3 className="pl-3 pb-6">{item.title}</h3>
+              <h3 className="pl-4 pb-6">{item.title}</h3>
               <div className="border border-lightText rounded-xl overflow-hidden">
                 <Image
                   src={item.image}
@@ -27,12 +27,12 @@ export default function Projects() {
                   alt={`${item.title} image`}
                 />
               </div>
-              <p>{item.description}</p>
-              <div className="flex items-left flex-col -m-3 pt-5">
+              <p className="pt-2">{item.description}</p>
+              <div className="flex items-left flex-col pt-5">
                 {item.link && (
                   <a
                     href={item.link}
-                    className="flex items-center  py-1 px-3"
+                    className="flex items-center py-1 px-3 w-fit"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -42,15 +42,15 @@ export default function Projects() {
                       height={18}
                       alt="Link icon"
                     />
-                    <span className="ml-2  text-lightText  transition-colors duration-500">
-                      {item.link}
+                    <span className="ml-2 text-lightText transition-colors duration-500">
+                      Demo Link &larr;
                     </span>
                   </a>
                 )}
                 {item.github && (
                   <a
                     href={item.github}
-                    className="flex items-center py-1 px-3"
+                    className="flex items-center py-1 px-3 w-fit"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -60,8 +60,8 @@ export default function Projects() {
                       height={18}
                       alt="Github icon"
                     />
-                    <span className="ml-2  text-lightText  transition-colors duration-500">
-                      {item.github}
+                    <span className="ml-2 text-lightText transition-colors duration-500">
+                      Github Link &larr;
                     </span>
                   </a>
                 )}

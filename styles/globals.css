@@ -39,7 +39,7 @@ h3 {
 }
 
 a {
-  @apply text-lightText transition-colors duration-500;
+  @apply text-lightText  transition-colors duration-500;
 }
 
 a:hover {
@@ -49,6 +49,7 @@ a:hover {
 * {
   box-sizing: border-box;
 }
+
 ul {
   list-style: decimal;
 }

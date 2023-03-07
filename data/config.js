@@ -58,6 +58,7 @@ export const stack = {
     'NextJS',
     'TailwindCSS',
     'Material-UI',
+    'Chakra-UI',
     'Firebase',
     'PostgreSQL',
     'MongoDB',
