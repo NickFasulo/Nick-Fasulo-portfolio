@@ -17,7 +17,7 @@ export default function Projects() {
               key={i}
               className="p-6 border border-lightText rounded-xl mb-4"
             >
-              <h3 className="pl-4 pb-6">{item.title}</h3>
+              <h3 className="ml-2 mb-6">{item.title}</h3>
               <div className="border border-lightText rounded-xl overflow-hidden">
                 <Image
                   src={item.image}
@@ -27,7 +27,7 @@ export default function Projects() {
                   alt={`${item.title} image`}
                 />
               </div>
-              <p className="pt-2">{item.description}</p>
+              <p className="mt-2">{item.description}</p>
               <div className="flex items-left flex-col pt-5">
                 {item.link && (
                   <a
@@ -42,7 +42,7 @@ export default function Projects() {
                       height={18}
                       alt="Link icon"
                     />
-                    <span className="ml-2 text-lightText transition-colors duration-500">
+                    <span className="ml-2">
                       Demo Link &larr;
                     </span>
                   </a>
@@ -60,7 +60,7 @@ export default function Projects() {
                       height={18}
                       alt="Github icon"
                     />
-                    <span className="ml-2 text-lightText transition-colors duration-500">
+                    <span className="ml-2">
                       Github Link &larr;
                     </span>
                   </a>
