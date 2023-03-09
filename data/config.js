@@ -1,7 +1,8 @@
 export const meta = {
   title: 'Nick Fasulo - Software Engineer',
-  description: 'Hey, I\'m Nick - a software engineer that enjoys building awesome UI.'
-}
+  description:
+    "Hey, I'm Nick - a software engineer that enjoys building awesome UI."
+};
 
 export const hero = {
   title: "Hey there! I'm Nick Fasulo.",
@@ -71,6 +72,8 @@ export const stack = {
 export const contact = {
   title: 'Contact Me',
   email: 'fasulo.nick@gmail.com',
+  resume:
+    'https://docs.google.com/document/d/11QY7HUcv-Qsrl0IrJKOW-rtLW398JR7dbXyB5wWPqGg/edit',
   github: 'https://github.com/NickFasulo',
   linkedin: 'https://www.linkedin.com/in/nicholas-fasulo'
 };
