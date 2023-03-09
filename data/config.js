@@ -30,20 +30,20 @@ export const projects = {
       github: 'https://github.com/NickFasulo/top-stuff'
     },
     {
-      title: 'Famous Quotes',
-      image: '/static/famous-quotes.png',
-      description:
-        'Interactive sphere of quotes by notable people throughout history.',
-      link: 'https://famous-quotes-nick-fasulo.netlify.app',
-      github: 'https://github.com/NickFasulo/famous-quotes'
-    },
-    {
       title: 'Flippy Matchy',
       image: '/static/flippy-matchy.png',
       description:
         'A match card game - to win you need to match each pair of identical cards in a deck. There are three levels to choose from: Easy, Medium, and Hard. The difference in levels are the amount of cards that are on the board.',
       link: 'https://nickfasulo.github.io/flippy-matchy-game',
       github: 'https://github.com/NickFasulo/flippy-matchy-game'
+    },
+    {
+      title: 'Famous Quotes',
+      image: '/static/famous-quotes.png',
+      description:
+        'Interactive sphere of quotes by notable people throughout history.',
+      link: 'https://famous-quotes-nick-fasulo.netlify.app',
+      github: 'https://github.com/NickFasulo/famous-quotes'
     }
   ]
 };

@@ -18,13 +18,13 @@ export default function Stack() {
           {contact.email}
         </a>
       </p>
-      <div className="flex space-x-5 mt-5 text-lightText transition-colors duration-300">
+      <div className="flex space-x-7 mt-5 text-lightText transition-colors duration-300">
         {contact.github && (
           <a href={contact.github} target="_blank" rel="noreferrer">
             <Image
               src="/static/icons/github.svg"
-              width={20}
-              height={20}
+              width={24}
+              height={24}
               alt="Nick Fasulo's Github"
             />
           </a>
@@ -33,8 +33,8 @@ export default function Stack() {
           <a href={contact.linkedin} target="_blank" rel="noreferrer">
             <Image
               src="/static/icons/linkedin.svg"
-              width={20}
-              height={20}
+              width={24}
+              height={24}
               alt="Nick Fasulo's Linkedin"
             />
           </a>
@@ -43,8 +43,8 @@ export default function Stack() {
           <a href={contact.resume} target="_blank" rel="noreferrer">
             <Image
               src="/static/icons/resume.svg"
-              width={20}
-              height={20}
+              width={24}
+              height={24}
               alt="Nick Fasulo's Resume"
             />
           </a>
