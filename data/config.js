@@ -5,8 +5,8 @@ export const meta = {
 };
 
 export const hero = {
-  title: "Hey there! I'm Nick Fasulo.",
-  desc: "I'm an ex-army medic turned software engineer with deep interests in software development and building awesome frontend experiences. Throughout my involvement as part of a development team, I've paired my laid back personality and commitment for striving towards excellence to be someone my team can depend on. In addition to my tech skills, I balance the importance of teamwork with self motivation, as I demonstrated during my time in the military where I was making split second decisions independently. I'm excited to continue collaborating with other developers who are also committed to supporting one another."
+  title: "Hi, I'm Nick Fasulo.",
+  desc: "I'm an ex-army medic turned software engineer with deep interests in software development and building awesome frontend experiences. Throughout my involvement as part of a dev team, I've paired my laid back personality and commitment to being someone others can depend on. I try to balance the importance of teamwork with self motivation, like during my time in the military where I was making quick decisions independently and as part of a unit. I'm excited to continue collaborating with other developers who are also committed to supporting one another."
 };
 
 export const projects = {
@@ -58,6 +58,7 @@ export const stack = {
     'React',
     'NextJS',
     'TailwindCSS',
+    'Bootstrap',
     'Material-UI',
     'Chakra-UI',
     'Firebase',
