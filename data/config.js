@@ -59,13 +59,13 @@ export const stack = {
     'NextJS',
     'TailwindCSS',
     'Bootstrap',
-    'Material-UI',
     'Chakra-UI',
     'Firebase',
     'PostgreSQL',
     'MongoDB',
     'ExpressJS',
     'NodeJS',
+    'Axios',
     'Git'
   ]
 };
