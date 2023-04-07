@@ -1,12 +1,12 @@
 export const meta = {
   title: 'Nick Fasulo - Software Engineer',
   description:
-    "Hey, I'm Nick - a software engineer that enjoys building awesome UI."
+    "Hey, I'm Nick - a software engineer that enjoys building user experiences."
 };
 
 export const hero = {
   title: "Hi, I'm Nick Fasulo.",
-  desc: "I'm an ex-army medic turned software engineer with deep interests in software development and building awesome frontend experiences. Throughout my involvement as part of a dev team, I've paired my laid back personality and commitment to being someone others can depend on. I try to balance the importance of teamwork with self motivation, like during my time in the military where I was making quick decisions independently and as part of a unit. I look forward to continue collaborating with other developers who are also committed to supporting one another."
+  desc: "I'm an ex-army medic turned software engineer with deep interests in software development and building great user experiences. Throughout my involvement as part of a dev team, I've paired my laid back personality and commitment to being someone others can depend on. I try to balance the importance of teamwork with self motivation, like during my time in the military where I was making quick decisions independently and as part of a unit. I look forward to continue collaborating with other developers who are also committed to supporting one another."
 };
 
 export const projects = {
