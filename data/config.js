@@ -74,7 +74,7 @@ export const contact = {
   title: 'Contact Me',
   email: 'fasulo.nick@gmail.com',
   resume:
-    'https://docs.google.com/document/d/11QY7HUcv-Qsrl0IrJKOW-rtLW398JR7dbXyB5wWPqGg/edit',
+    'https://docs.google.com/document/d/1onXNmF3OaQGfCH0J1c48YkkCltr2HVBBBdkz-79SwGQ/edit?usp=sharing',
   github: 'https://github.com/NickFasulo',
   linkedin: 'https://www.linkedin.com/in/nicholas-fasulo'
 };
