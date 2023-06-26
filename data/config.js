@@ -56,6 +56,7 @@ export const stack = {
     'JavaScript',
     'Typescript',
     'React',
+    'Redux',
     'NextJS',
     'TailwindCSS',
     'Bootstrap',
@@ -65,6 +66,7 @@ export const stack = {
     'MongoDB',
     'ExpressJS',
     'NodeJS',
+    'Postman',
     'Axios',
     'Git'
   ]
