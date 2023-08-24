@@ -6,7 +6,7 @@ export const meta = {
 
 export const hero = {
   title: "Hi, I'm Nick Fasulo.",
-  desc: "I'm an ex-army medic turned software engineer with deep interests in software development and building great user experiences. Throughout my involvement as part of a dev team, I've paired my easy going personality and commitment to being someone others can depend on. I try to balance the importance of teamwork with self motivation, like during my time in the military where I was making quick decisions independently and as part of a unit. I look forward to continue collaborating with others who are also committed to supporting one another."
+  desc: "I'm an ex-army medic turned software engineer with deep interests in software development and building great user experiences. Throughout my involvement as part of a dev team, I've paired my easy going personality and commitment to being someone others can depend on. I try to balance the importance of teamwork with self motivation, and I look forward to continue collaborating with others who are also committed to supporting one another."
 };
 
 export const projects = {
