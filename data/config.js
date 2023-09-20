@@ -11,7 +11,7 @@ export const hero = {
 
 export const projects = {
   title: 'My Projects',
-  desc: "Here are some of my favorite projects that I've worked on.",
+  desc: "Here are some of my favorite personal projects that I've worked on.",
   projects: [
     {
       title: 'Top Stuff',
