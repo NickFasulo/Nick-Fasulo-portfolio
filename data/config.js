@@ -14,6 +14,14 @@ export const projects = {
   desc: "Here are some of my favorite personal projects that I've worked on.",
   projects: [
     {
+      title: 'Flippy Matchy',
+      image: '/static/flippy-matchy.png',
+      description:
+        'A match card game - to win you need to match each pair of identical cards in a deck. There are three levels to choose from: Easy, Medium, and Hard. The difference in levels are the amount of cards that are on the board. Unlock new categories to discover new card decks!',
+      link: 'https://nickfasulo.github.io/flippy-matchy-game',
+      github: 'https://github.com/NickFasulo/flippy-matchy-game'
+    },
+    {
       title: 'Top Stuff',
       image: '/static/top-stuff.png',
       description:
@@ -28,23 +36,7 @@ export const projects = {
         'A social media platform where innovative minds collaborate and share ideas to create the projects of tomorrow. The platform is designed so developers can showcase their projects, share their feedback, and keep up on all the latest technology.',
       link: 'https://alike-ga.netlify.app',
       github: 'https://github.com/NickFasulo/BackEnd-Alike'
-    },
-    {
-      title: 'Flippy Matchy',
-      image: '/static/flippy-matchy.png',
-      description:
-        'A match card game - to win you need to match each pair of identical cards in a deck. There are three levels to choose from: Easy, Medium, and Hard. The difference in levels are the amount of cards that are on the board. Unlock new categories to discover new card decks!',
-      link: 'https://nickfasulo.github.io/flippy-matchy-game',
-      github: 'https://github.com/NickFasulo/flippy-matchy-game'
-    },
-    // {
-    //   title: 'Famous Quotes',
-    //   image: '/static/famous-quotes.png',
-    //   description:
-    //     'Interactive sphere of quotes by notable people throughout history.',
-    //   link: 'https://famous-quotes-nick-fasulo.netlify.app',
-    //   github: 'https://github.com/NickFasulo/famous-quotes'
-    // }
+    }
   ]
 };
 
