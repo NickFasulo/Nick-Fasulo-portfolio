@@ -14,20 +14,20 @@ export const projects = {
   desc: "Here are some of my favorite personal projects that I've worked on.",
   projects: [
     {
-      title: 'Flippy Matchy',
-      image: '/static/flippy-matchy.png',
-      description:
-        'A match card game - to win you need to match each pair of identical cards in a deck. There are three levels to choose from: Easy, Medium, and Hard. The difference in levels are the amount of cards that are on the board. Unlock new categories to discover new card decks!',
-      link: 'https://nickfasulo.github.io/flippy-matchy-game',
-      github: 'https://github.com/NickFasulo/flippy-matchy-game'
-    },
-    {
       title: 'Top Stuff',
       image: '/static/top-stuff.png',
       description:
         'An application that allows you to browse trending movies and view movie details. Includes infinite scrolling and the ability to see an AI generated review using OpenAI.',
       link: 'https://top-stuff.vercel.app',
       github: 'https://github.com/NickFasulo/top-stuff'
+    },
+    {
+      title: 'Flippy Matchy',
+      image: '/static/flippy-matchy.png',
+      description:
+        'A match card game - to win you need to match each pair of identical cards in a deck. There are three levels to choose from: Easy, Medium, and Hard. The difference in levels are the amount of cards that are on the board. Unlock new categories to discover new card decks!',
+      link: 'https://nickfasulo.github.io/flippy-matchy-game',
+      github: 'https://github.com/NickFasulo/flippy-matchy-game'
     },
     {
       title: 'Alike',
@@ -53,6 +53,7 @@ export const stack = {
     'TailwindCSS',
     'Bootstrap',
     'Chakra-UI',
+    'DevExtreme',
     'Firebase',
     'PostgreSQL',
     'MongoDB',
