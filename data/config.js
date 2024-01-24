@@ -53,7 +53,6 @@ export const stack = {
     'TailwindCSS',
     'Bootstrap',
     'Chakra-UI',
-    'DevExtreme',
     'Firebase',
     'PostgreSQL',
     'MongoDB',
