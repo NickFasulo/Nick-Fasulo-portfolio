@@ -17,7 +17,7 @@ export const projects = {
       title: 'Galaxy Movies',
       image: '/static/top-stuff.png',
       description:
-        'Trying to pick a movie? Top Stuff is an app that allows you to browse trending movies and view movie details. Includes infinite scrolling and the ability to see an AI generated review using OpenAI.',
+        'Trying to pick a movie? Galaxy Movies is an app that allows you to browse trending movies and view movie details. Includes infinite scrolling and the ability to see an AI generated review using OpenAI.',
       link: 'https://galaxy-movies.vercel.app',
       github: 'https://github.com/NickFasulo/top-stuff'
     },
