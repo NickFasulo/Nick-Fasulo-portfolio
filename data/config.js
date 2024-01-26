@@ -14,11 +14,11 @@ export const projects = {
   desc: "Here are some of my favorite personal projects that I've worked on.",
   projects: [
     {
-      title: 'Top Stuff',
+      title: 'Galaxy Movies',
       image: '/static/top-stuff.png',
       description:
         'Trying to pick a movie? Top Stuff is an app that allows you to browse trending movies and view movie details. Includes infinite scrolling and the ability to see an AI generated review using OpenAI.',
-      link: 'https://top-stuff.vercel.app',
+      link: 'https://galaxy-movies.vercel.app',
       github: 'https://github.com/NickFasulo/top-stuff'
     },
     {
