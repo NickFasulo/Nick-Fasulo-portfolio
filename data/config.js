@@ -46,7 +46,6 @@ export const stack = {
     'HTML',
     'CSS',
     'JavaScript',
-    'Typescript',
     'React',
     'Redux',
     'NextJS',
@@ -57,8 +56,8 @@ export const stack = {
     'PostgreSQL',
     'MongoDB',
     'ExpressJS',
-    'NodeJS',
     'Postman',
+    'Liquid',
     'Axios',
     'Git'
   ]
@@ -68,7 +67,7 @@ export const contact = {
   title: 'Contact Me',
   email: 'fasulo.nick@gmail.com',
   resume:
-    'https://docs.google.com/document/d/1onXNmF3OaQGfCH0J1c48YkkCltr2HVBBBdkz-79SwGQ/edit?usp=sharing',
+    'https://docs.google.com/document/d/1rgTOaf87V8pUsm3UClhXS5XSp5GRT17ak-HjFw4cudI/edit?usp=sharing',
   github: 'https://github.com/NickFasulo',
   linkedin: 'https://www.linkedin.com/in/nicholas-fasulo'
 };
