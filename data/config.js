@@ -30,6 +30,14 @@ export const projects = {
       github: 'https://github.com/NickFasulo/flippy-matchy-game'
     },
     {
+      title: 'Kanbanify',
+      image: '/static/construction.png',
+      description:
+        'Wanting to get organized? Kanbanify is a task and project management application designed to streamline workflows and boost productivity. It empowers individuals and teams to efficiently organize, track, and manage tasks and projects in a visual and flexible manner.',
+      link: 'https://github.com/NickFasulo/Kanbanify',
+      github: 'https://github.com/NickFasulo/Kanbanify'
+    },
+    {
       title: 'Alike',
       image: '/static/alike.png',
       description:

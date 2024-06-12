@@ -3,7 +3,7 @@ import { projects } from '@/data/config';
 
 export default function Projects() {
   return (
-    <div className="">
+    <div>
       <div className="overflow-x-hidden w-full">
         <h2 className="landingSectionTitle max-w-max mx-0 text-left relative mb-4 md:w-max">
           {projects.title}
@@ -43,7 +43,7 @@ export default function Projects() {
                       alt="Link icon"
                     />
                     <span className="ml-2">
-                      Demo Link &larr;
+                      Demo &larr;
                     </span>
                   </a>
                 )}
@@ -61,7 +61,7 @@ export default function Projects() {
                       alt="Github icon"
                     />
                     <span className="ml-2">
-                      Github Link &larr;
+                      Github &larr;
                     </span>
                   </a>
                 )}
